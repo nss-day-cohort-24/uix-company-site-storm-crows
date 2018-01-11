@@ -14,38 +14,46 @@
    <body>
 
       <header>
-        <h1>Kids' Challenge</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="products.html">Products</a>
-                </li>
-                <li>
-                    <a href="info.html">Info</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="reviews.html">Reviews</a>
-                </li>
-            </ul>
-        </nav>
-
+            <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="products.html">Products</a>
+                        </li>
+                        <li>
+                            <a href="info.html">Info</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="reviews.html">Reviews</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h1>Kids' Challenge</h1>
       </header>
 
       <main>
+
+        <img class="contact-image" src="images/art-02.jpeg" alt="happy child" width="290" height="174">
+
         <form action="contact.html" method="post">
-        <h1>Get in touch!</h1>
+        <h2>Get in touch!</h2>
 
             <fieldset>
                 <label for="name">Name:</label>
                     <input type="text" id="name" name="user_name">
+
+                    <br>
+
                 <label for="email">Email:</label>
                     <input type="text" id="email" name="user_email">
+
+                    <br>
+
                 <label for="phone">Phone:</label>
                     <input type="text" id="phone" name="user_phone">
             </fieldset>
@@ -55,7 +63,7 @@
                 <textarea id="comments" name="user_comments"></textarea>
             </fieldset>
 
-            <button type="submit">Submit</button>
+            <button class="notice-button" type="submit">Submit</button>
 
         </form>
 
