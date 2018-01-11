@@ -17,6 +17,34 @@ h1 {
 body {
     background-color: #efe7dc;
 }
+
+/* CONTACT PAGE STYLES ======================= */
+
+.contact-image {
+    padding: .5em;
+    border: 1px solid #012d5a;
+}   
+    
+    fieldset {
+    border: none;
+}
+
+input {
+    width: 15%;
+}
+
+.notice-button {
+    color: #012d5a;
+    background-color: #a5bb2a;
+    font-size: 2em;
+    padding: .5em;
+    text-align: center;
+    width: 15%;
+    border: 5px solid #012d5a;
+  }
+
+  
+  
 p {
 
 }
@@ -27,3 +55,4 @@ nav li {
 nav li{
     border: #a5bb2a;
 }
+
