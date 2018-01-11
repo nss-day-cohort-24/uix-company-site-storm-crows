@@ -1,3 +1,18 @@
-.main {
+.sub {
     background-color: #eb752f; 
+    padding: 2%;
+}
+.sub2 {
+    background-color: #a5bb2a;
+    padding: 2%;
+}
+h1 {
+    background-color: #012d5a;
+    color: #efe7dc;
+    padding: 5%;
+    border: #eb752f solid 7px;
+    border-style: double;
+}
+body {
+    background-color: #efe7dc;
 }
