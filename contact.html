@@ -38,12 +38,32 @@
       </header>
 
       <main>
-          
-         <h1>Get in touch with us to find out more. We are here to help.</h1>
-         <p><a href="https://www.facebook.com/YouGotThis" target="_blank">  Visit us on Facebook</a> • Email us at <a href="mailto:yougotthis.com">YouGotThis@YouGotThis.com</a> • Thank you for your patience while we are developing our site.</p>
-        <form>
+        <form action="contact.html" method="post">
+        <h1>Get in touch!</h1>
+
+            <fieldset>
+                <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                <label for="email">Email:</label>
+                    <input type="text" id="email" name="user_email">
+                <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="user_phone">
+            </fieldset>
+
+            <fieldset>
+                <label for="comments">Tell us about your child:</label>
+                <textarea id="comments" name="user_comments"></textarea>
+            </fieldset>
+
+            <button type="submit">Submit</button>
 
         </form>
+
+         <h2>Or...</h2>
+         <h3>Connect with us via FaceBook or email us to find out more. We are here to help.</h3>
+         <p><a href="https://www.facebook.com/YouGotThis" target="_blank">  Visit us on Facebook</a> • Email us at <a href="mailto:yougotthis.com">YouGotThis@YouGotThis.com</a>
+            <p>We look forward to meeting you and your child!</p>
+        
       </main>
 
       <footer>&copy; The Storm Crows</footer>
