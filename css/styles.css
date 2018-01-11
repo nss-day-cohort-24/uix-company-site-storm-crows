@@ -18,6 +18,15 @@ body {
     background-color: #efe7dc;
 }
 
+/* This is CSS for the product grid */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+
 /* CONTACT PAGE STYLES ======================= */
 
 .contact-image {
@@ -43,8 +52,6 @@ input {
     border: 5px solid #012d5a;
   }
 
-  
-  
 p {
 
 }
