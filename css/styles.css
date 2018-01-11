@@ -16,3 +16,13 @@ h1 {
 body {
     background-color: #efe7dc;
 }
+
+/* This is CSS for the product grid */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
