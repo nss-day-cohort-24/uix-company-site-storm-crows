@@ -12,7 +12,18 @@ h1 {
     padding: 5%;
     border: #eb752f solid 7px;
     border-style: double;
+    border-radius: 15px;
 }
 body {
     background-color: #efe7dc;
+}
+p {
+
+}
+
+nav li {
+    display: inline;
+}
+nav li{
+    border: #a5bb2a;
 }
