@@ -64,18 +64,4 @@ input {
     font-size: 2em;
     padding: .5em;
     text-align: center;
-    width: 15%;
-    border: 5px solid #012d5a;
-  }
-
-p {
-
 }
-
-nav li {
-    display: inline;
-}
-nav li{
-    border: #a5bb2a;
-}
-
