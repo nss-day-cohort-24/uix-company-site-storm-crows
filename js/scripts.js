@@ -24,7 +24,7 @@ var dance = {
     name: "Dance",
     description:"4-week Pop Music Dance Class",
     price: "$199",
-    URL: "/images/karate-01.jpg"
+    URL: "/images/dance-01.jpg"
 }
 
 var kickball = {
@@ -38,14 +38,14 @@ var woodworking = {
     name: "Woodworking",
     description:"6-week Woodworking Course",
     price: "$199",
-    URL: "/images/wood-01.jpg"
+    URL: "/images/wood-01.jpeg"
 }
 
 var ropes = {
     name: "Ropes Course",
     description:"1-day Ropes Course Adventure",
     price: "$49",
-    URL: "/images/ropes01.jpg"
+    URL: "/images/ropes-01.jpg"
 }
 
 var stem = {
@@ -57,12 +57,11 @@ var stem = {
 
 var products = [karate, woodworking, art, dance, kickball, canoeing, stem, ropes]
 
-var desc = "";
-
-
+var desc;
 
 for ( var i = 0; i < 8; i += 1 ) {
-    desc += `<p>${products[i].name}<br>${products[i].description}<br>${products[i].price}</p>`;
+    desc += `<div id="cards"><img class="card_img" src="${products[i].URL}"><br><p>${products[i].name}<br>${products[i].description}<br>${products[i].price}</p></div>`;
 }
 
-document.getElementById("cards").innerHTML = desc;
+
+document.getElementById("container").innerHTML = desc;
