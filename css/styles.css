@@ -23,20 +23,37 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  height: 200px;
+
+}
+
+#cards {
+    background-color: #fff;
+    width: 250px;
+    border: 5px solid #eb752f;
+    padding: 15px;
+    margin: 25px;
+    box-shadow: 15px 15px 20px rgba(0,0,0 .8);
+    object-fit: cover;
+}
+
+.card_img {
+    
+    box-shadow: inset 0 15px 20px -12px rgba(0,0,0 .8);
+}
 
 }
 
 /* CONTACT PAGE STYLES ======================= */
 
 .contact-image {
+    margin-left: 1em;
     padding: .5em;
     border: 1px solid #012d5a;
-    background-color: #a5bb2a;
+    background-color: #eb752f;
     border-radius: 15px;
-}   
+} 
 
 .get-in-touch {
     margin-left: 1em;
@@ -67,7 +84,7 @@ body {
 input[type=text] {
     width: 70%;
     border: 2px solid #eb752f;
-    padding: 12px 20px;
+    padding: 1em;
     margin: 8px 0;
     border-radius: 15px;
     font-size: 1.2em;
@@ -79,8 +96,8 @@ input[type=text]:focus {
 
 textarea {
     width: 100%;
-    height: 10em;
-    padding: 12px 20px;
+    height: 95%;
+    padding: 1em;
     box-sizing: border-box;
     border: 2px solid #eb752f;
     border-radius: 15px;
@@ -116,12 +133,5 @@ textarea:focus {
 
 p {
 
-}
-
-nav li {
-    display: inline;
-}
-nav li{
-    border: #a5bb2a;
 }
 
