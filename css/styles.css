@@ -1,3 +1,9 @@
+body {
+    background-color: #efe7dc;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 .sub {
     background-color: #eb752f; 
     padding: 2%;
@@ -14,6 +20,11 @@ h1 {
     border-style: double;
     border-radius: 15px;
 }
+
+ul {
+    list-style-type: none;
+}
+
 body {
     background-color: #efe7dc;
 }
@@ -47,7 +58,6 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
-
 
 /* CONTACT PAGE STYLES ======================= */
 
@@ -119,10 +129,6 @@ textarea:focus {
     padding: .2em;
     margin-left: 1em;
     text-align: center;
-<<<<<<< HEAD
-=======
-
->>>>>>> b073cfa96744e18a052ed9f8b331b1fed70fa3fa
     width: 10%;
     border: 5px solid #012d5a;
     border-radius: 15px;
@@ -140,14 +146,33 @@ textarea:focus {
 /* END OF CONTACT PAGE STYLES ================== */
 
 p {
-<<<<<<< HEAD
-
-=======
->>>>>>> b073cfa96744e18a052ed9f8b331b1fed70fa3fa
 }
 
-<<<<<<< HEAD
-=======
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
->>>>>>> master
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  } 
+  
+
+
