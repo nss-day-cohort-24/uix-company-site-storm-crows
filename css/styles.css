@@ -22,9 +22,22 @@ h1 {
 }
  updateReviews
 
-ul {
+li {
     list-style-type: none;
-  
+}
+ 
+.removeBullet li {
+    list-style-type: none;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+#skills li {
+    list-style-type: none;
+}
+
 body {
     background-color: #efe7dc;
 }
