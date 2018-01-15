@@ -29,6 +29,8 @@ h1 {
 
 li {
     list-style-type: none;
+    display: inline;
+    padding: 20px;
 }
 finishSite
  
