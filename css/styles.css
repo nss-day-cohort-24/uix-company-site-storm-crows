@@ -1,3 +1,9 @@
+body {
+    background-color: #efe7dc;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 .sub {
     background-color: #eb752f; 
     padding: 2%;
@@ -14,7 +20,7 @@ h1 {
     border-style: double;
     border-radius: 15px;
 }
-body {
-    background-color: #efe7dc;
-    text-align: center;
+
+ul {
+    list-style-type: none;
 }
