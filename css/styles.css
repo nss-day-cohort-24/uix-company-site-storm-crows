@@ -21,9 +21,23 @@ h1 {
     border-radius: 15px;
 }
 
-ul {
+li {
     list-style-type: none;
 }
+finishSite
+ 
+.removeBullet li {
+    list-style-type: none;
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+#skills li {
+    list-style-type: none;
+}
+ master
 
 body {
     background-color: #efe7dc;
