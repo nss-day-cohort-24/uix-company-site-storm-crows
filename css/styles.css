@@ -1,3 +1,9 @@
+body {
+    background-color: #efe7dc;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 .sub {
     background-color: #eb752f; 
     padding: 2%;
@@ -14,6 +20,11 @@ h1 {
     border-style: double;
     border-radius: 15px;
 }
+ updateReviews
+
+ul {
+    list-style-type: none;
+  
 body {
     background-color: #efe7dc;
 }
@@ -48,7 +59,7 @@ body {
     max-height: 100%;
 }
 
-/* CONTACT PAGE STYLES ======================= */
+/* CONTACT PAGE STYLES */
 
 .contact-image {
     padding: .5em;
@@ -69,6 +80,7 @@ input {
     font-size: 2em;
     padding: .5em;
     text-align: center;
+ master
 }
 
 /* Style the header */
