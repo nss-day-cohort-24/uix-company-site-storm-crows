@@ -57,7 +57,7 @@ var stem = {
 
 var products = [karate, woodworking, art, dance, kickball, canoeing, stem, ropes]
 
-var desc;
+var desc = ""; 
 
 for ( var i = 0; i < 8; i += 1 ) {
     desc += `<div id="cards"><img class="card_img" src="${products[i].URL}"><br><p>${products[i].name}<br>${products[i].description}<br>${products[i].price}</p></div>`;
