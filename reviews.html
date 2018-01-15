@@ -61,12 +61,30 @@
             <p>"I'll never forget the first year that I went to a <strong>You got this</strong> art class. I was 11 years old and a very shy introvert. The staff was so nice and they encouraged me to meet the kids in the class and not to be afraid of making new friends. Those years really brought me out of my shell and taught me to be confident and have solid self-esteem. I now have kids of my own and this year my 9 year old daughter will get to be a part of her first program. I'm so glad I've had the chance to pass on this wonderful experience to her and have positive influences in her life." <span class="standoutText">--Liza Jenson</span></p>   
     </section>
 </main>  
-
+   
+   <script>
+     
+    window.onscroll = function() {myFunction()};
+    
+  
+    var header = document.getElementById("myHeader");
+    
+   
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }   
+   </script>
 
 <div>
     <footer>&copy; The Storm Crows</footer>
 </div>
-
+</body>
 
 
 

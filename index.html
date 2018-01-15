@@ -5,7 +5,7 @@
    <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Kids Challenge</title>
+    <title>You got This!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css.normalize.css">
     <link rel="stylesheet" href="../CSS/styles.css">
@@ -17,8 +17,13 @@
         <div class="header" id="myHeader">
             <h2>You Got This!</h2>
           </div>   
+
+        <h1>Come Join us Build Confidence and Have Fun!</h1>
+        <nav>
+          
         <h1>Kids Challenge</h1>
         <nav class="removeBullet">
+
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -39,15 +44,43 @@
         </nav>
 
       </header>
+      <h2 class="title"> Welcome to <strong>You Got This!</strong></h2>
+         
 
       <main>
-        <h2>Welcome the Kids Challenge</h2>
-        <p>We are here to inspire kids to give their best and achieve goals achieve goals they never thought possible.</p>
+        <h2>Come Join Us!</h2>
+        <h3>We are here to inspire kids to give their best and achieve goals achieve goals they never thought possible. Come join us
+             at any of our eight courses. Do you feel like going on a high flying adventure? Then try the zip line on our Rope Course. Do 
+             you want to stay inside and express your inner artist? Well then, joining the Painting and Drawing course sounds like a class you would enjoy.
+             We have a class for everyone to enjoy! 
+        </h3>
+        <h3>
+            Every year kids just like you come to our courses and say this is the best part of their summer. They leave our camps with all new friendships and stories
+            of fun and adventure. Come to one of our courses and see for yourself... or sign up for them all! We know it will be a blast!
+        </h3>
 
       </main>
 
       <footer>&copy; The Storm Crows</footer>
-
-   </body>
+     
+     <script>
+     
+      window.onscroll = function() {myFunction()};
+      
+    
+      var header = document.getElementById("myHeader");
+      
+     
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }   
+     </script>
+    </body>
 
 </html>
