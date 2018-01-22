@@ -1,3 +1,14 @@
+============= STORM CROWS original work=============
+Persona: 
+Middle school kids & parents
+
+Challenge Statement:
+Charlie Brown’s lack of confidence and personal agency keeps him from standing up for himself against bullying and from realizing his victories.
+ultimate impact: realize personal victories against bullies
+variety of solutions:  need a little more here great statement on the challenge, but a little more on how you are going to focus fixing it (THIS is a great example of how “Solution” is not the best word for this!!!) … maybe something like “How might we provide self-directed football training (or self-confident building lessons) to children like Charlie Brown to build up their confidence and personal agency to help him to stand up for himself against bullying and to realize his victories.
+constraints and context: designing for children
+
+
 # Group Project UIX: Company Site
 
 As a team, build the web site for a fictitious product company. The team gets to decide the name of the company and what types of products it manufactures/sells. Be creative and have fun.
